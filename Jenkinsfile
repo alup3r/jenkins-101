@@ -4,7 +4,7 @@ pipeline {
     }
     agent {
         node {
-            label 'jenkins-agent-goes-here'
+            label 'prod'
         }
     }
     stages {
