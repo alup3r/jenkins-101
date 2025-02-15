@@ -1,7 +1,5 @@
-import fire
-
-def hello(name="World"):
-    return f"Hello {name}"
+def hello():
+    return f"Hello from Jenkins"
 
 if __name__ == "__main__":
-    fire.Fire(hello)
+    hello()
